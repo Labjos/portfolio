@@ -1,10 +1,16 @@
+import Box from "./components/ui/box/Box";
+import './App.css';
 
 
 function App() {
   
 
   return (
-   <p>Hola</p>
+    <>
+     <Box border='white' size={200}/>
+     <Box border='magenta'/>
+    </>
+    
   )
 }
 
