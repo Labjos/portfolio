@@ -1,0 +1,5 @@
+.line {
+  width: 1px;
+  height: 50vh;
+  border-right: 1 px #fff dotdash;
+}
