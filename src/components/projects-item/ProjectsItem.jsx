@@ -4,7 +4,7 @@ import './ProjectsItem.css';
 function ProjectsItem({ project }) {
   return (
           <div className="project">
-            {/* <img src={project.image}  alt={project.title} /> */}
+            <img src={project.image}  alt={project.title} />
             <div className="overlay">
               <p>{project.title}</p>
               <div className="iconsContainer">

@@ -10,16 +10,19 @@ function ProjectsList() {
 
 
   return (
-    <div className="container text-center">
-      <div className="row">
+    <div className="row row-cols-4 g-2">
         
           {projects.map((project) => (
-            <div key={project.id} className="col-12 col-md-6 col-lg-4"><ProjectsItem {...project} /></div>
+            <div key={project.id} className="col">
+              <ProjectsItem 
+                project={project}
+                /></div>
           ))}
         
       </div>
-    </div>
+    
   )
 }
 
 export default ProjectsList;
+
