@@ -1,6 +1,15 @@
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar .nav-item a{
+  color: #fff;
+}
+
+.navbar-nav .nav-link.active {
+  color: grey;
 }
 
 .navbar-collapse {

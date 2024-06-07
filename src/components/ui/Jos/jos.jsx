@@ -4,11 +4,12 @@ import './Jos.css';
 function Jos() {
   return (
     <div className='container-jos'>
-      <img width={120} src='../../../../foto-jos.png' />
-      <p>“Cualquiera que deja de aprender es viejo,
-        ya tenga 20 años u 80.<br /> Cualquiera que sigue 
+      <p className='titulo-jos'>Jose Lorente | Web Developer</p>
+      <img className='image-jos' width={150} src='../../../../foto-jos.png' />
+      <p className='text-jos'>“Cualquiera que deja de aprender es viejo,
+        ya tenga 20 años u 80. Cualquiera que sigue 
         aprendiendo se mantiene joven.”(Henry Ford)</p>
-      <img src='../../../../iso-josep.png' />
+      <img className='logo-jos' src='../../../../iso-josep.png' />
     </div>
   )
 }

@@ -3,7 +3,7 @@ import './Box.css';
 function Box( { text, className }) {
   
   return (
-    <div className= {className}><p>{text}</p></div>
+    <div className= {className}><p className='text-box'>{text}</p></div>
   )
 }
 

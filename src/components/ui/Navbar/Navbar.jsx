@@ -2,7 +2,7 @@ import './Navbar.css'
 
 function Navbar() {
   return (
-    <div>
+    <>
       <nav className="navbar navbar-expand-md navbar-ligth">
       <div className="container-fluid">
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +10,7 @@ function Navbar() {
       </button>
       <div className="collapse navbar-collapse" id="navbar-toggler">
         <a className="navbar-brand" href="#">
-          <img src=""  alt="imagen icono" />
+          <img src="../../../../isotipo.png"  alt="imagen icono" />
         </a>
         <ul className="navbar-nav d-flex justify-content-center align-items-center">
           <li className="nav-item">
@@ -26,7 +26,7 @@ function Navbar() {
       </div>
     </div>
   </nav>  
-  </div>
+  </>
   )
 }
 
